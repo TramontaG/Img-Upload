@@ -19,7 +19,7 @@ export const saveImage = (img?: fileUpload.UploadedFile) => {
 			name: imgName,
 			mimetype: img.mimetype,
 			size: img.size,
-			endpoint: `/get/${imgName}`,
+			endpoint: `/get/?img=${imgName}.${imgExtension}`,
 		},
 	};
 };

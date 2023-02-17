@@ -1,6 +1,9 @@
+import cors from 'cors';
 import { Router } from 'express';
 
 const router = Router();
+
+router.use(cors());
 
 router.get('/get', async (req, res) => {
 	try {

@@ -12,6 +12,7 @@
 		"docs": "typedoc ./src/index.ts"
 	},
 	"devDependencies": {
+		"@types/cors": "^2.8.13",
 		"@types/express": "^4.17.14",
 		"@types/express-fileupload": "^1.4.1",
 		"concurrently": "^7.5.0",
@@ -24,6 +25,7 @@
 	"dependencies": {
 		"@types/jest": "^29.2.3",
 		"Auth-Middleware": "/home/guigalleta/Libs/Auth-Middleware",
+		"cors": "^2.8.5",
 		"express": "^4.18.2",
 		"express-fileupload": "^1.4.0",
 		"link-module-alias": "^1.2.0",

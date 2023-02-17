@@ -44,10 +44,10 @@ const validateName = ([imgName, imgExtension]: string[]) => {
 			message: 'Invalid image name',
 		};
 	}
-	if (!allowedExtensions.includes(imgExtension)) {
-		throw {
-			status: 402,
-			message: 'Invalid image extension',
-		};
-	}
+	// if (!allowedExtensions.includes(imgExtension)) {
+	// 	throw {
+	// 		status: 402,
+	// 		message: 'Invalid image extension',
+	// 	};
+	// }
 };
